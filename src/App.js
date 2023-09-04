@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Watchlist from "./components/Movie-Watchlist/Watchlist";
 import Watched from "./components/Movie-Watchlist/Watched";
 import Add from "./components/Movie-Watchlist/Add";
@@ -9,14 +9,14 @@ import "./components/Movie-Watchlist/App.css";
 const App = () => {
   return (
     <GlobalProvider>
-      <Router>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Watchlist />} />
           <Route path="/watched" element={<Watched />} />
           <Route path="/add" element={<Add />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </GlobalProvider>
   );
 };

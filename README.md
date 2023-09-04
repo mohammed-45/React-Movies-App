@@ -1,3 +1,6 @@
+# Live Preview: https://mohammed-45.github.io/React-Movies-App/
+![MovieApp](https://github.com/mohammed-45/React-Movies-App/assets/113661322/850ceb89-7744-4512-b75c-fee25c64c322)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
